@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServicePulsePublisher.Host", "ServicePulsePublisher.Host\ServicePulsePublisher.Host.csproj", "{77549055-CF58-49BA-A9CC-EDF1CC7AEDA8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServicePulsePublisher.Host.Tests", "ServicePulsePublisher.Host.Tests\ServicePulsePublisher.Host.Tests.csproj", "{FD85936A-9541-4BB2-8A4A-B3055086E30D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PublishPlatform.Trello", "PublishPlatform.Trello\PublishPlatform.Trello.csproj", "{CD296EAE-58AA-40EE-A2A2-255545291D8B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PublishPlatform.Trello.Tests", "PublishPlatform.Trello.Tests\PublishPlatform.Trello.Tests.csproj", "{7F6BCC2B-8A84-4189-8525-9D3A8AFB5A6D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{77549055-CF58-49BA-A9CC-EDF1CC7AEDA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77549055-CF58-49BA-A9CC-EDF1CC7AEDA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77549055-CF58-49BA-A9CC-EDF1CC7AEDA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77549055-CF58-49BA-A9CC-EDF1CC7AEDA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD85936A-9541-4BB2-8A4A-B3055086E30D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD85936A-9541-4BB2-8A4A-B3055086E30D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD85936A-9541-4BB2-8A4A-B3055086E30D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD85936A-9541-4BB2-8A4A-B3055086E30D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD296EAE-58AA-40EE-A2A2-255545291D8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD296EAE-58AA-40EE-A2A2-255545291D8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD296EAE-58AA-40EE-A2A2-255545291D8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD296EAE-58AA-40EE-A2A2-255545291D8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F6BCC2B-8A84-4189-8525-9D3A8AFB5A6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F6BCC2B-8A84-4189-8525-9D3A8AFB5A6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F6BCC2B-8A84-4189-8525-9D3A8AFB5A6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F6BCC2B-8A84-4189-8525-9D3A8AFB5A6D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

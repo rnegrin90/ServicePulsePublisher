@@ -2,6 +2,11 @@
 Thumbs.db
 ehthumbs.db
 
+#folders
+bin/
+obj/
+packages/
+
 # Folder config file
 Desktop.ini
 
@@ -13,6 +18,7 @@ $RECYCLE.BIN/
 *.msi
 *.msm
 *.msp
+
 
 # Windows shortcuts
 *.lnk
